@@ -1,0 +1,18 @@
+{
+  "name": "sam-server-test",
+  "version": "1.0.0",
+  "description": "A test server for the SAM application being built by 99x",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "99x-interns",
+  "license": "ISC",
+  "dependencies": {
+    "azure-mobile-apps": "^2.1.4",
+    "express": "^4.13.4"
+  },
+  "engines": {
+    "node": "4.4.x"
+    }
+}
