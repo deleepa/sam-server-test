@@ -20,6 +20,6 @@ mobile.tables.initialize().then(function() {
     app.use(mobile);
     
     //start the application
-    app.listen(3000);
+    app.listen(process.env.PORT || 3000);
     
 }); 

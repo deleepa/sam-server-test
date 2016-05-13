@@ -13,6 +13,12 @@ table.columns = {
     "package_id": "string"
 };
 
+table.seed = [{
+    "email": "johnwick@gmail.com",
+    "password": "password",
+    "package_id": "1"
+}];
+
 table.dynamicSchema = false;
 
 module.exports = table;
